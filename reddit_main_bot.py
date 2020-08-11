@@ -10,8 +10,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 
 
-username = input("Enter the mock username to login with: ")  # "LankySavings = my username I made for testing"
-password = input("Enter the mock password to login with: ")  #"master1 = my password I made for testing"
+username = input("Enter the mock username to login with: ")
+password = input("Enter the mock password to login with: ")
 geck_path = input("Enter geckodriver filepath: ")
 max_time = 7
 
